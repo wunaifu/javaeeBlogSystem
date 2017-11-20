@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>博客首页</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        .head{
+            width: 100%;
+            height: 60px;
+            border: 1px solid #999;
+        }
+        .page{
+            width: 1190px;
+            height: 60px;
+            /* background-color: #f00;*/
+            /*margin: 0(上下) 0(左右);
+            margin: 0(上下左右);
+            margin: 0 0 0 0(上右下左)*/
+            margin: 5px auto;
+        }
+        .center{
+            width: 40%;
+            height: 60px;
+            line-height: 60px;
+            margin-left: 50px;
+            position: relative;
+        }
+        .right{
+            width: 40%;
+            line-height: 60px;
+            text-align: right;
+        }
+        li{
+            list-style: none;
+            float: left;
+
+        }
+        .shouye:hover{
+            color: #f00;
+        }
+        a{
+            text-decoration: none;
+        }
+        .toptab:hover{
+            color: #f00;
+        }
+        .inputsearch{
+            width:100%;
+            height:30px;
+            border:1px solid #ccc;
+
+        }
+        .imgsearch{
+            width:22px;
+            height:22px;
+            /* background-color: #ccc;*/
+            position: absolute;
+            right:5px;
+            bottom:18px;
+            padding:2px;
+        }
+        .pagerightspan{
+            margin-left: 50px;
+        }
+        .divboxleft{
+            width:65%;
+        }
+        .divboxright{
+            width:300px;
+            background-color: #97cbfc;
+        }
+        .pagebottom{
+            width:100%;
+        }
+        .pagebottom{
+            width:80%;
+            height:100%;
+            margin:0 auto;
+        }
+        .headicon{
+            width:50px;
+            height:50px;
+            margin:20px 125px 20px 125px;
+        }
+        .myinfoli{
+            width:33%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .listheadicon{
+            width:50px;
+            height:50px;
+        }
+        .clearf{
+            clear: both;
+        }
+        .listessay{
+            padding:20px;
+        }
+        .essaycontent{
+
+        }
+    </style>
+
+</head>
+<body>
+<div class="head">
+    <div class="page">
+        <ul>
+            <li>
+                <span>
+
+                    <a href="" target="" class="shouye">
+                        <img src="images/home.png" alt="" width="50px" height="50px">
+                    </a>
+                </span>
+            </li>
+            <li class="center">
+
+                <input type="text" class="inputsearch" />
+                <img src="images/search.png" alt="" class="imgsearch">
+            </li>
+            <li class="right">
+                <span class="pagerightspan">
+                    <a href="" target="" class="toptab">
+                        <img src="images/me.png" alt="" width="15px" height="15px">
+                        <span>您好！请登录</span>
+                    </a>
+                </span>
+                <span class="pagerightspan">
+                    <a href="" target="_blank" class="toptab">
+                        <span>注册</span>
+                    </a>
+                </span>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="pagebottom">
+    <div class="pagecenter">
+        <ul>
+            <li class="divboxleft">
+                <ul>
+                    <li class="listessay">
+                        <div>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <img src="images/home.png" alt="" class="listheadicon">
+                                    </li>
+                                    <li>
+                                        <div>
+                                            秒拍
+                                        </div>
+                                        <div>
+                                            6月28日 23:10:10
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="clearf"></div>
+                            <div class="essaycontent">
+                                澳大利亚一个小女孩身患癌症，不能到学校上学，只能待在医院里。她很喜欢《加勒比海盗》以及杰克船长。于是约翰尼·德普便扮成杰克船长，亲自去医院看望她。这样的惊喜实在太治愈了！#秒拍# L电影扒客的秒拍视频 ​​​​
+                            </div>
+                            <div>
+                                <ul>
+                                    <li>
+                                        评论
+                                    </li>
+                                    <li>
+                                        收藏
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li class="divboxright">
+                <div>
+                    <img src="images/home.png" alt="" class="headicon">
+                </div>
+
+                <div>
+                    <ul>
+                        <li class="myinfoli">
+                            <div>
+                                10
+                            </div>
+                            <div>
+                                关注
+                            </div>
+                        </li>
+                        <li class="myinfoli">
+                            <div>
+                                10
+                            </div>
+                            <div>
+                                粉丝
+                            </div>
+                        </li>
+                        <li class="myinfoli">
+                            <div>
+                                10
+                            </div>
+                            <div>
+                                文章
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
